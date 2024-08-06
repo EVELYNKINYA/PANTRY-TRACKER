@@ -1,7 +1,7 @@
 // utils/recipeApi.js
 import axios from 'axios';
 
-const RECIPE_API_URL = 'https://api.edamam.com/api/recipes/'; // Replace with the actual API URL
+const RECIPE_API_URL = 'https://api.edamam.com/api/'; // Replace with the actual API URL
 
 export const getRecipes = async (classifications) => {
     try {
